@@ -21,7 +21,7 @@ autoinstall:
             - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBkKZwb7Avr9vcsUEgM8GHJv5wJJa65UwVX30WXRhk6N caio-projects@caio-pc
     write_files:
         - path: /etc/ssh/sshd_config
-        content: |
+          content: |
             Port 4222
             Protocol 2
             HostKey /etc/ssh/ssh_host_rsa_key
